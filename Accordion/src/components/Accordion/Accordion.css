@@ -15,6 +15,7 @@
   padding-bottom: 30px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 10px;
 }
 
 .topic {
@@ -23,6 +24,18 @@
   padding: 10px;
   color: rgb(3, 112, 202);
 }
+
+.button {
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(3, 112, 202);
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  border: 1px solid rgb(3, 112, 202);
+}
+
 .accordion {
   display: flex;
   flex-direction: column;
@@ -52,4 +65,12 @@ hr {
   height: 2px;
   border: 0;
   background-color: rgb(3, 112, 202);
+}
+
+.button:hover {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: rgb(3, 112, 202);
+  border: 1px solid rgb(3, 112, 202);
 }
